@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gruppindelning", "gruppindelning\gruppindelning.csproj", "{C68CF2F0-1E89-48F0-8A62-A88E7F8AAABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68CF2F0-1E89-48F0-8A62-A88E7F8AAABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68CF2F0-1E89-48F0-8A62-A88E7F8AAABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68CF2F0-1E89-48F0-8A62-A88E7F8AAABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68CF2F0-1E89-48F0-8A62-A88E7F8AAABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B27F1E5-CB7F-47A2-B51A-E76B362D7A20}
+	EndGlobalSection
+EndGlobal

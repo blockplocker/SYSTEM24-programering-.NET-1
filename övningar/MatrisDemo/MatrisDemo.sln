@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrisDemo", "MatrisDemo\MatrisDemo.csproj", "{D4F7A761-A153-4AB3-898F-D6FD3FE62813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4F7A761-A153-4AB3-898F-D6FD3FE62813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F7A761-A153-4AB3-898F-D6FD3FE62813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F7A761-A153-4AB3-898F-D6FD3FE62813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F7A761-A153-4AB3-898F-D6FD3FE62813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761EB55F-0C24-449A-994D-5294789F79C6}
+	EndGlobalSection
+EndGlobal
