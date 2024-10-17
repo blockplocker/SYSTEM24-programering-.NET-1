@@ -51,11 +51,90 @@ namespace Dark_and_darker
             }
         }
 
+        public static void calculateHP()
+        {
+            while (true)
+            {
+                Console.WriteLine("\n--- Choose HP Calculation Type ---");
+                Console.WriteLine("1. Effective Health");
+                Console.WriteLine("2. Health");
+                Console.WriteLine("3. Exit to Main Menu");
+                Console.Write("Enter your choice: ");
+                string choice = Console.ReadLine();
+
+                if (choice == "3")
+                {
+                    break;
+                }
+
+                double currentHP;
+                while (true)
+                {
+                    Console.Write("Enter your current HP: ");
+                    if (double.TryParse(Console.ReadLine(), out currentHP))
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number.");
+                    }
+                }
+
+                double resistance;
+                while (true)
+                {
+                    Console.Write("Enter your resistance (as a percentage, e.g., 10 for 10%): ");
+                    if (double.TryParse(Console.ReadLine(), out resistance))
+                    {
+                        resistance /= 100; // Convert percentage to decimal
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number.");
+                    }
+                }
+
+                switch (choice)
+                {
+                    case "1":
+                        DisplayEffectiveHealth(currentHP, resistance);
+                        break;
+                    case "2":
+                        DisplayHealth(currentHP);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
+                }
+            }
+        }
+
+        private static void DisplayHealth(double currentHP)
+        {
+            Console.WriteLine("\n--- Health in Different Forms ---");
+            Console.WriteLine("Bear Form: " + (currentHP * 1.5));
+            Console.WriteLine("Panther Form: " + (currentHP * 0.75));
+            Console.WriteLine("Chicken Form: " + (currentHP * 0.4));
+            Console.WriteLine("Rat Form: " + (currentHP * 0.05));
+        }
+
+        private static void DisplayEffectiveHealth(double currentHP, double resistance)
+        {
+            const double baseResistance = 0.10; // 10% base resistance
+
+            Console.WriteLine("\n--- Effective Health in Different Forms ---");
+            Console.WriteLine("Bear Form: " + (currentHP * 1.5 * (1 - baseResistance) * (1 + 0.50) * (1 - resistance)));
+            Console.WriteLine("Panther Form: " + (currentHP * 0.75 * (1 - baseResistance) * (1 - resistance)));
+            Console.WriteLine("Chicken Form: " + (currentHP * 0.4 * (1 - baseResistance) * (1 - resistance)));
+            Console.WriteLine("Rat Form: " + (currentHP * 0.05 * (1 - baseResistance) * 0 * (1 - resistance)));
+        }
+
         private static double GetUpdatedValue(string attributeName, double Value)
         {
             while (true)
             {
-
                 Console.Write($"Enter updated value for {attributeName} (current: {Value}): ");
                 if (double.TryParse(Console.ReadLine(), out double updatedValue))
                 {
