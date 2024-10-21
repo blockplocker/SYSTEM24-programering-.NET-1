@@ -81,24 +81,23 @@ namespace Dark_and_darker
                     }
                 }
 
-                double resistance;
-                while (true)
-                {
-                    Console.Write("Enter your resistance (as a percentage, e.g., 10 for 10%): ");
-                    if (double.TryParse(Console.ReadLine(), out resistance))
-                    {
-                        resistance /= 100; // Convert percentage to decimal
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid input. Please enter a valid number.");
-                    }
-                }
-
                 switch (choice)
                 {
                     case "1":
+                        double resistance;
+                        while (true)
+                        {
+                            Console.Write("Enter your resistance (as a percentage, e.g., 10 for 10%): ");
+                            if (double.TryParse(Console.ReadLine(), out resistance))
+                            {
+                                resistance /= 100; // Convert percentage to decimal
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid input. Please enter a valid number.");
+                            }
+                        }
                         DisplayEffectiveHealth(currentHP, resistance);
                         break;
                     case "2":
@@ -125,10 +124,10 @@ namespace Dark_and_darker
             const double baseResistance = 0.10; // 10% base resistance
 
             Console.WriteLine("\n--- Effective Health in Different Forms ---");
-            Console.WriteLine("Bear Form: " + (currentHP * 1.5 * (1 - baseResistance) * (1 + 0.50) * (1 - resistance)));
-            Console.WriteLine("Panther Form: " + (currentHP * 0.75 * (1 - baseResistance) * (1 - resistance)));
-            Console.WriteLine("Chicken Form: " + (currentHP * 0.4 * (1 - baseResistance) * (1 - resistance)));
-            Console.WriteLine("Rat Form: " + (currentHP * 0.05 * (1 - baseResistance) * 0 * (1 - resistance)));
+            Console.WriteLine("Bear Form: " + ((currentHP * 1.5) * (1.5 + resistance)));
+            Console.WriteLine("Panther Form: " + ((currentHP * 0.75) * (1 + resistance)));
+            Console.WriteLine("Chicken Form: " + ((currentHP * 0.4) * (1 + resistance)));
+            Console.WriteLine("Rat Form: " + (currentHP * 0.05));
         }
 
         private static double GetUpdatedValue(string attributeName, double Value)
