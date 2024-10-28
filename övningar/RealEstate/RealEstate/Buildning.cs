@@ -36,8 +36,30 @@ namespace RealEstate
         public override void WriteDescription()
         {
             string result = $"En villa på {Address} med {Floors} våningar.";
-            result += $"Där bor familjen {Family.Name}, {Family.NumberOfPeople} personer";
+            result += $"Här bor familjen {Family.Name} med {Family.NumberOfPeople} personer ";
             result += Garden ? "med en fin trädgård." : "utan en trägård";
+            Console.WriteLine(result);
+        }
+    }
+    public class Apartment : Building
+    {
+        public bool LandryRoom { get; set; }
+        public List<Family> Families { get; set; }
+        public Apartment(string address, int floors, bool landryRoom, List<Family> families) : base(address, floors)
+        {
+            LandryRoom = landryRoom;
+            Families = families;
+        }
+        public override void WriteDescription()
+        {
+            string result = $"Ett lägenhetshus på {Address} med {Floors} våningar.";
+            result += $"Här bor {Families.Count} familjer";
+            result += "Familjerna är: ";
+            foreach (Family family in Families)
+            {
+                result += $"{family.Name} med {family.NumberOfPeople} personer. ";
+            }
+            result += LandryRoom ? "Det finns en tvättstuga." : "De saknas tvättstuga.";
             Console.WriteLine(result);
         }
     }
