@@ -53,7 +53,7 @@ namespace RealEstate
         public override void WriteDescription()
         {
             string result = $"Ett lägenhetshus på {Address} med {Floors} våningar.";
-            result += $"Här bor {Families.Count} familjer";
+            result += $"Här bor {Families.Count} familjer. ";
             result += "Familjerna är: ";
             foreach (Family family in Families)
             {
