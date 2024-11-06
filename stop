@@ -1,0 +1,169 @@
+[33mcommit e4d26a6426a6404d126df71908829dddff4a15ac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Wed Oct 23 11:07:02 2024 +0200
+
+    Dark and Darker added damage calculating for melee classes
+
+[33mcommit a77222d47fc99855f0acfcedb3429bc4bafa7d0b[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Tue Oct 22 10:09:32 2024 +0200
+
+    MovieDB
+
+[33mcommit 859e2a4c25237b229019c2399c5de8a3e6cd6e8e[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Oct 21 11:18:24 2024 +0200
+
+    Moving projects
+
+[33mcommit ceb5d6ff623b8c79f5fe27d6fe88d6f5687c16b6[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Oct 21 11:16:03 2024 +0200
+
+    Skogen 2
+    Arv och override methoder
+
+[33mcommit 608de340c14659dc3a90053b52cce16cbde5db00[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Oct 21 10:36:19 2024 +0200
+
+    fixed effective health method
+
+[33mcommit aa4a5f0e6c92f80e1202a6c9ccc60136764af156[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Oct 17 12:39:56 2024 +0200
+
+    calculate health for druid
+
+[33mcommit ee84ed1842c7c0a217e8bdf414914284ae88e42b[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Oct 17 12:11:51 2024 +0200
+
+    menu system to choose what method to use and improved druid class metods
+
+[33mcommit a36b57f5332974dd462034e731c2b319ce283681[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Wed Oct 16 13:49:32 2024 +0200
+
+    Skogen klar
+
+[33mcommit 0f34ecef183ae9a53f4442525dafa91e5ae56d1a[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Tue Oct 15 16:27:56 2024 +0200
+
+    Skogen Början
+
+[33mcommit 2a0057da2dc232793225846ded7becb776246a1e[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Tue Oct 15 15:51:36 2024 +0200
+
+    Herren på täppan OOP med propertys, construktors och methods
+
+[33mcommit f9302c3ec91f983be93704f784f292e075a0e00f[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Tue Oct 15 14:49:31 2024 +0200
+
+    proterty construktor
+
+[33mcommit cc5488499278c2d412208ef9fa36d8fcb652850d[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Oct 14 12:16:25 2024 +0200
+
+    the Road - OOP car simulation
+
+[33mcommit b41020bd0967dd5a1ab53038cb705f8136e40dac[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Fri Oct 11 19:28:25 2024 +0200
+
+    Dark and darker calculator
+
+[33mcommit 058617a56df4d460f8e4654551e8813f7f08caec[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Oct 10 14:23:02 2024 +0200
+
+    Organisering i filerna
+
+[33mcommit 36497c00ad3b734c805c7251de8f3a37592e60e8[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Oct 10 14:19:50 2024 +0200
+
+    Hotell save to file and metoder
+
+[33mcommit c6a3f88fbf35d9806b51362393623f08bece6f29[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Oct 7 11:14:43 2024 +0200
+
+    hotell
+
+[33mcommit 887b4b1d9ba3e63381c8ce66e9e8cdcbc4562e89[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Oct 3 14:32:04 2024 +0200
+
+    gruppindelning
+
+[33mcommit 10051afe96b81a7bdb65bcd843bfeb27faa6cbc9[m
+Merge: ee7d886 7013064
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Wed Oct 2 10:01:00 2024 +0200
+
+    Merge branch 'master' of https://github.com/blockplocker/SYSTEM24-programering-.NET-1
+
+[33mcommit ee7d8867378c1a2513a3a702fc5335e7bcd14727[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Wed Oct 2 10:00:53 2024 +0200
+
+    vilken dag
+
+[33mcommit 7013064f9a6c0e0bf89df72738df983cc9f07ccc[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 30 15:50:40 2024 +0200
+
+    Black jack start
+
+[33mcommit e57cc2c3738690d61d690556682ba60fd5f01cbe[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 23 14:08:39 2024 +0200
+
+    hiss
+
+[33mcommit cdec90d4cb0ce6ef8282a1aa1fbd80879b176fad[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 23 13:50:12 2024 +0200
+
+    bankomat
+
+[33mcommit 74f10b60bbce9fe79b290f05f9a96defe054f89e[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 23 11:35:23 2024 +0200
+
+    Labyrinten game
+
+[33mcommit d730d46de78bb75d3ebc2ec2f8ddfb3402146b02[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 23 09:15:24 2024 +0200
+
+    figting game
+
+[33mcommit f15a2d06f54354c33ba41e3ddee8764eb09584c3[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Sep 19 16:35:56 2024 +0200
+
+    bish bosh
+
+[33mcommit d88aef9d6605bb2f9ce5a438d92a6fb7306ae21e[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Thu Sep 19 14:51:36 2024 +0200
+
+    Three in a row game
+
+[33mcommit 0e4affdfdf9f2dd85d4d278bcfdf59613a1a862d[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 16 16:53:24 2024 +0200
+
+    Add project files.
+
+[33mcommit 93df6cdbc137d22b7074eca88280290624fe565d[m
+Author: blockplocker <noahallklint@gmail.com>
+Date:   Mon Sep 16 16:53:21 2024 +0200
+
+    Add .gitattributes and .gitignore.
